@@ -1,0 +1,22 @@
+﻿<Window x:Name="no_Name" x:Class="UtiCompanion.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UtiCompanion"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel Margin="10,48,609,45" Orientation="Vertical">
+            <Button x:Name="addSpec" Content="Add Spec" HorizontalAlignment="Left" VerticalAlignment="Top" Width="173" Height="55" Click="addSpec_Click"/>
+            <Button x:Name="btnPlus" Content="Plus" HorizontalAlignment="Left" Width="173" Click="btnPlus_Click" Height="51"/>
+            <Button x:Name="btnMinus" Content="Minus" HorizontalAlignment="Center" Width="173" Click="btnMinus_Click" VerticalAlignment="Center" Height="55"/>
+
+        </StackPanel>
+        <Label x:Name="lblSpecName" Content="Label" HorizontalAlignment="Left" Margin="281,48,0,0" VerticalAlignment="Top" Width="375" Height="46"/>
+        <Label x:Name="lblSpecDescr" Content="Label" HorizontalAlignment="Left" Margin="281,127,0,0" VerticalAlignment="Top" Height="117" Width="390"/>
+        <Button x:Name="btnChangeSpecName" Content="Change Name" HorizontalAlignment="Left" Margin="571,94,0,0" VerticalAlignment="Top" Width="75" Click="btnChangeSpecName_Click"/>
+        <TextBox x:Name="tbSpecName" HorizontalAlignment="Left" Height="70" Margin="200,322,0,0" TextWrapping="Wrap" Text="ffff" VerticalAlignment="Top" Width="535"/>
+
+    </Grid>
+</Window>
